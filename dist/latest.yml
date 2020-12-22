@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: CPBeyond-Desktop-Setup-1.0.0.exe
+    sha512: +TJpNYTbDED+LGqIFq1SnnqmKtN552VSHV+HifsppsVAm7ROYob9BQHGyJqZBtHQ0TtyRqW4+8i37IWomKqtng==
+    size: 76837251
+path: CPBeyond-Desktop-Setup-1.0.0.exe
+sha512: +TJpNYTbDED+LGqIFq1SnnqmKtN552VSHV+HifsppsVAm7ROYob9BQHGyJqZBtHQ0TtyRqW4+8i37IWomKqtng==
+releaseDate: '2020-12-22T21:57:11.772Z'

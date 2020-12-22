@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.cpbeyond.desktop
+productName: CPBeyond Desktop
+asar: false
+win:
+  publish: github
+electronVersion: 6.1.7
