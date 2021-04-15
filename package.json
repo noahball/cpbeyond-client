@@ -1,7 +1,7 @@
 {
   "name": "beyonddesktop",
-  "version": "1.0.0",
-  "description": "Desktop client for cpbeyond.com",
+  "version": "1.0.1",
+  "description": "Desktop client for cpbeyond.net",
   "main": "main.js",
   "scripts": {
     "start": "electron .",

@@ -43,14 +43,14 @@ function createWindow () {
 
   mainWindow.setMenu(null);
   clearCache();
-  // mainWindow.loadURL('https://play.cpbeyond.com/desktop');
+  // mainWindow.loadURL('https://play.cpbeyond.net/desktop');
   mainWindow.loadURL(`file://${__dirname}/app/index.html`)
 
   // RICH PRESENCE START
   const clientId = '791042356022476893'; DiscordRPC.register(clientId); const rpc = new DiscordRPC.Client({ transport: 'ipc' }); const startTimestamp = new Date();
   rpc.on('ready', () => {
     rpc.setActivity({
-      details: `cpbeyond.com`, 
+      details: `cpbeyond.net`, 
       state: `Waddling around`, 
       startTimestamp, 
       largeImageKey: `main-logo`//, 

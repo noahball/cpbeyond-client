@@ -12,8 +12,8 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 */
 
-function redirect(){window.location.href = 'https://play.cpbeyond.com/desktop';}
+function redirect(){window.location.href = 'https://play.cpbeyond.net/desktop';}
 window.addEventListener('DOMContentLoaded', () => {
   var url = window.location.href;
-    if(url.includes('play.cpbeyond.com') == false && url.includes('app/index.html') == false && url.includes('altodev') == false && url.includes('cpbeyond') == false){redirect();}
+    if(url.includes('play.cpbeyond.net') == false && url.includes('app/index.html') == false && url.includes('altodev') == false && url.includes('cpbeyond') == false){redirect();}
   });
